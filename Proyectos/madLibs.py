@@ -22,3 +22,11 @@
 
 #Juego palabras locas --> "Ahorcado" 
 
+#Paso 1: Guardar la oración que el usuario ingrese: 
+
+adj = input("Adjetivo: ")
+verb = input("Verbo: ")
+sus = input("Sustantivo: ")
+
+madlib = f"Programar es super {adj} me llena de felicidad {verb}! aprende Python y alcanza tus {sus}!!!"
+print(madlib)
